@@ -28,12 +28,40 @@ export default function Home() {
 
   return (
     <div className="flex flex-row gap-4 p-4 w-full h-screen bg-slate-300">
-      <div className="border-4 border-blue-700 w-full md:w-1/3 flex flex-col justify-center items-center">
-        <img src="https://cdn.displate.com/artwork/270x380/2024-05-04/35c82a3f721ea5e932d531c5c00f1c7d_337c6098202a78affa7bf5b285fb2461.jpg"></img>
+      <div className="gap-2 border-4 border-blue-700 w-full md:w-1/3 flex flex-col items-center font-mono">
+        <h2 className="text-blue-700 text-2xl font-bold flex justify-center p-4">
+          Certificate
+        </h2>
+        <div className="flex flex-col items-center">
+          <img
+            class="h-73 w-136 object-contain border-2 border-blue-700"
+            src="https://mycourseville-default.s3.ap-southeast-1.amazonaws.com/system_course_files/2022_2/36996/cvcert_usercert/certificate_36996_1410428-1410428-17399645626721.jpg"
+          ></img>
+          <p className="p-4">
+            <u>
+              <strong>How do Generative AI and ChatGPT work?</strong>
+            </u>
+            <br></br>Chulalongkorn University (Chula Mooc)<br></br>
+            <em>issued Feb 2025</em>
+          </p>
+        </div>
+        <div className="flex flex-col items-center">
+          <img
+            class="h-73 w-136 object-contain border-2 border-blue-700"
+            src="https://mycourseville-default.s3.ap-southeast-1.amazonaws.com/system_course_files/2022_2/36996/cvcert_usercert/certificate_36996_1410428-1410428-17399645626721.jpg"
+          ></img>
+          <p className="p-4">
+            <u>
+              <strong>How do Generative AI and ChatGPT work?</strong>
+            </u>
+            <br></br>Chulalongkorn University (Chula Mooc)<br></br>
+            <em>issued Feb 2025</em>
+          </p>
+        </div>
       </div>
-      <div className="border-4 border-blue-700 w-full md:w-1/3 flex flex-col">
+      <div className="border-4 border-blue-700 w-full md:w-1/3 flex flex-col font-mono">
         <div>
-          <h2 className="border-blue-700 text-blue-400 text-2xl font-bold flex justify-center p-4 ">
+          <h2 className="text-blue-700 text-2xl font-bold flex justify-center p-4">
             All Project
           </h2>
         </div>
@@ -70,14 +98,22 @@ export default function Home() {
 
       <div className="border-4 border-blue-700 w-full md:w-1/3 flex flex-col items-center">
         <div>
-          <h2 className=" text-blue-400 text-2xl font-bold flex justify-center p-4">
+          <h2 className="text-blue-700 text-2xl font-bold flex justify-center p-4">
             Update Log
           </h2>
         </div>
-        <div>
-          <div className="font-mono flex justify-between p-4 text-rose-400">
-            <span>December 15th, 2025</span>
-            <span>by narathorn</span>
+        <div className="font-mono p-4">
+          <div className="flex justify-between text-rose-400">
+            <div>
+              <h3>December 15th, 2025 </h3>
+            </div>
+            <div>
+              <h3>by MEOPEPE</h3>
+            </div>
+          </div>
+          <div>
+            First commit for navbar,home page,contact page not dressing them up
+            yet
           </div>
         </div>
       </div>
