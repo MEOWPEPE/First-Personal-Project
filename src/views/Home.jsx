@@ -27,93 +27,116 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="flex flex-row gap-4 p-4 w-full h-screen bg-slate-300">
-      <div className="gap-2 border-4 border-blue-700 w-full md:w-1/3 flex flex-col items-center font-mono">
-        <h2 className="text-blue-700 text-2xl font-bold flex justify-center p-4">
-          Certificate
-        </h2>
-        <div className="flex flex-col items-center">
-          <img
-            class="h-73 w-136 object-contain border-2 border-blue-700"
-            src="https://mycourseville-default.s3.ap-southeast-1.amazonaws.com/system_course_files/2022_2/36996/cvcert_usercert/certificate_36996_1410428-1410428-17399645626721.jpg"
-          ></img>
-          <p className="p-4">
-            <u>
-              <strong>How do Generative AI and ChatGPT work?</strong>
-            </u>
-            <br></br>Chulalongkorn University (Chula Mooc)<br></br>
-            <em>issued Feb 2025</em>
-          </p>
-        </div>
-        <div className="flex flex-col items-center">
-          <img
-            class="h-73 w-136 object-contain border-2 border-blue-700"
-            src="https://mycourseville-default.s3.ap-southeast-1.amazonaws.com/system_course_files/2022_2/36996/cvcert_usercert/certificate_36996_1410428-1410428-17399645626721.jpg"
-          ></img>
-          <p className="p-4">
-            <u>
-              <strong>How do Generative AI and ChatGPT work?</strong>
-            </u>
-            <br></br>Chulalongkorn University (Chula Mooc)<br></br>
-            <em>issued Feb 2025</em>
-          </p>
-        </div>
+    <div>
+      <div className="flex flex-col items-center p-10 bg-black text-3xl font-mono text-[#39FF14] drop-shadow-[0_0_8px_rgba(57,255,20,0.8) border-4 border-[#39FF14] leading-tight gap-6">
+        <p>
+          Welcome To My Digital Space! Building this portfolio wasn't just about
+          code; it was about creating a home for my ideas. From being the 'only
+          Hackerman' in my family to building functional web applications, I
+          take immense pride in every line of code I write. This site represents
+          my journey, my growth as a developer, and my commitment to building
+          things that matter (and look good doing it)
+        </p>
+        <p>*** The Force is Strong With This Terminal ***</p>
       </div>
-      <div className="border-4 border-blue-700 w-full md:w-1/3 flex flex-col font-mono">
-        <div>
-          <h2 className="text-blue-700 text-2xl font-bold flex justify-center p-4">
-            All Project
-          </h2>
-        </div>
-        <div className="p-4">
-          <div className="border-b-4 border-blue-700 p-4">
-            <h3>Project 1 : Portfolio Website</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-              veritatis maxime eos, quos magni pariatur saepe recusandae ut et
-              beatae quis eaque porro harum laudantium cum eligendi labore
-              voluptate ea.
+      <div className="flex flex-row gap-4 p-4 w-full h-screen bg-slate-300">
+        <div className="gap-2 border-4 border-blue-700 w-full md:w-1/3 flex flex-col items-center font-mono">
+          <h2 className="text-blue-700 text-2xl font-bold flex justify-center p-4"></h2>
+          <div className="flex flex-col items-center">
+            <img
+              class="h-73 w-136 object-contain"
+              src="https://img5.pic.in.th/file/secure-sv1/168849_0.jpg"
+            ></img>
+            <p className="p-4">
+              <u>
+                <strong>Code Foundation Skill Path</strong>
+              </u>
+              <br></br>Codecademy<br></br>
+              <em>issued Nov 2025</em>
             </p>
           </div>
-          <div className="border-b-4 border-blue-700 p-4">
-            <h3>Project 2 : XXXXXX</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae, consequuntur ut. Maxime, ipsa ad? Animi quia
-              perspiciatis explicabo id, facilis, molestiae ipsum consequatur ad
-              voluptas, enim quidem quae error praesentium?
-            </p>
-          </div>
-          <div className="border-b-4 border-blue-700 p-4">
-            <h3>Project 3 : XXXXXX</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae, consequuntur ut. Maxime, ipsa ad? Animi quia
-              perspiciatis explicabo id, facilis, molestiae ipsum consequatur ad
-              voluptas, enim quidem quae error praesentium?
+          <div className="flex flex-col items-center">
+            <img
+              class="h-73 w-136 object-contain"
+              src="https://mycourseville-default.s3.ap-southeast-1.amazonaws.com/system_course_files/2022_2/36996/cvcert_usercert/certificate_36996_1410428-1410428-17399645626721.jpg"
+            ></img>
+            <p className="p-4">
+              <u>
+                <strong>How do Generative AI and ChatGPT work?</strong>
+              </u>
+              <br></br>Chulalongkorn University (Chula Mooc)<br></br>
+              <em>issued Feb 2025</em>
             </p>
           </div>
         </div>
-      </div>
-
-      <div className="border-4 border-blue-700 w-full md:w-1/3 flex flex-col items-center">
-        <div>
-          <h2 className="text-blue-700 text-2xl font-bold flex justify-center p-4">
-            Update Log
-          </h2>
-        </div>
-        <div className="font-mono p-4">
-          <div className="flex justify-between text-rose-400">
-            <div>
-              <h3>December 15th, 2025 </h3>
-            </div>
-            <div>
-              <h3>by MEOPEPE</h3>
-            </div>
-          </div>
+        <div className="border-4 border-blue-700 w-full md:w-1/3 flex flex-col font-mono">
           <div>
-            First commit for navbar,home page,contact page not dressing them up
-            yet
+            <h2 className="text-blue-700 text-2xl font-bold flex justify-center p-4">
+              All Project
+            </h2>
+          </div>
+          <div className="p-4">
+            <div className="border-b-4 border-blue-700 p-4">
+              <h3 className="text-white font-bold">
+                Project 1 : Portfolio Website
+              </h3>
+              <p>
+                This project serves as a window into my capabilities and my
+                personal approach to problem-solving. My goal is to demonstrate
+                how I can add value to your team
+              </p>
+            </div>
+            <div className="border-b-4 border-blue-700 p-4">
+              <h3>Project 2 : E-commerce (Team_Project)</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae, consequuntur ut. Maxime, ipsa ad? Animi quia
+                perspiciatis explicabo id, facilis, molestiae ipsum consequatur
+                ad voluptas, enim quidem quae error praesentium?
+              </p>
+            </div>
+            <div className="border-b-4 border-blue-700 p-4">
+              <h3>Project 3 : XXXXXX</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae, consequuntur ut. Maxime, ipsa ad? Animi quia
+                perspiciatis explicabo id, facilis, molestiae ipsum consequatur
+                ad voluptas, enim quidem quae error praesentium?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-4 border-blue-700 w-full md:w-1/3 flex flex-col">
+          <div>
+            <h2 className="text-blue-700 text-2xl font-bold flex justify-center p-4">
+              Update Log
+            </h2>
+          </div>
+          <div className="font-mono p-4">
+            <div className="flex justify-between text-rose-400">
+              <div>
+                <h3>December 16th, 2025 </h3>
+              </div>
+              <div>
+                <h3>by MEOPEPE</h3>
+              </div>
+            </div>
+            <div className="text-blue-600">second commit : add Certificate</div>
+          </div>
+          <div className="font-mono p-4">
+            <div className="flex justify-between text-rose-400">
+              <div>
+                <h3>December 15th, 2025 </h3>
+              </div>
+              <div>
+                <h3>by MEOPEPE</h3>
+              </div>
+            </div>
+            <p className="text-blue-600">
+              First commit for navbar,home page,contact page not dressing them
+              up yet
+            </p>
           </div>
         </div>
       </div>
